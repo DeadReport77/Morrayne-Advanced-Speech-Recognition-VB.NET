@@ -1,2 +1,3 @@
-# Morrayne-Advanced-Speech-Recognition-VB.NET
-VB.NET is not dead, only the people who gave up on it and chose not to use their minds.
+# Morrayne-Advanced-Speech-Recognition-VB.NET  This program is still under construction and likely will be for awhile, but it has many functions including a "terminal" that allows you to hide your taskbar/desktop with a click of a button and bring them back just the same. It also wipes all online history and system history. This is not a malicious program and I take full responsiblity backing this claim. I found ways to improve background feed that interferes with the program. I will continue to update this program, but it will be a speech recognition that serves like an operating system once all the features are final. 
+
+VB.NET IS NOT DEAD, only the people who gave up on it and chose not to use their minds and finish what they started. The only problem we will ever face in life that has no solution is death. VB.NET always has a solution, if you create it.
