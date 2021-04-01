@@ -102,6 +102,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Piano.Designer.vb">
+      <DependentUpon>Piano.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piano.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Terminal.Designer.vb">
       <DependentUpon>Terminal.vb</DependentUpon>
     </Compile>
@@ -121,6 +127,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piano.resx">
+      <DependentUpon>Piano.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Terminal.resx">
       <DependentUpon>Terminal.vb</DependentUpon>
@@ -142,6 +151,84 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Commands.txt" />
+    <None Include="Resources\d6organ.wav" />
+    <None Include="Resources\c6organ.wav" />
+    <None Include="Resources\b5organ.wav" />
+    <None Include="Resources\f5organ.wav" />
+    <None Include="Resources\e5organ.wav" />
+    <None Include="Resources\a4organ.wav" />
+    <None Include="Resources\a5organ.wav" />
+    <None Include="Resources\a3organ.wav" />
+    <None Include="Resources\a6organ.wav" />
+    <None Include="Resources\b3organ.wav" />
+    <None Include="Resources\b4organ.wav" />
+    <None Include="Resources\b6organ.wav" />
+    <None Include="Resources\c3organ.wav" />
+    <None Include="Resources\c4organ.wav" />
+    <None Include="Resources\c5organ.wav" />
+    <None Include="Resources\c7organ.wav" />
+    <None Include="Resources\d3organ.wav" />
+    <None Include="Resources\d4organ.wav" />
+    <None Include="Resources\d5organ.wav" />
+    <None Include="Resources\d7organ.wav" />
+    <None Include="Resources\e3organ.wav" />
+    <None Include="Resources\e4organ.wav" />
+    <None Include="Resources\e6organ.wav" />
+    <None Include="Resources\e7organ.wav" />
+    <None Include="Resources\f3organ.wav" />
+    <None Include="Resources\f4organ.wav" />
+    <None Include="Resources\f6organ.wav" />
+    <None Include="Resources\f7organ.wav" />
+    <None Include="Resources\g3organ.wav" />
+    <None Include="Resources\g4organ.wav" />
+    <None Include="Resources\g6organ.wav" />
+    <None Include="Resources\session.wav" />
+    <None Include="Resources\askpiano.wav" />
+    <None Include="Resources\openingpiano.wav" />
+    <None Include="Resources\A3.wav" />
+    <None Include="Resources\A4.wav" />
+    <None Include="Resources\A5.wav" />
+    <None Include="Resources\A6.wav" />
+    <None Include="Resources\B3.wav" />
+    <None Include="Resources\B4.wav" />
+    <None Include="Resources\B5.wav" />
+    <None Include="Resources\B6.wav" />
+    <None Include="Resources\C3.wav" />
+    <None Include="Resources\C4.wav" />
+    <None Include="Resources\C5.wav" />
+    <None Include="Resources\C6.wav" />
+    <None Include="Resources\C7.wav" />
+    <None Include="Resources\D3.wav" />
+    <None Include="Resources\D4.wav" />
+    <None Include="Resources\D5.wav" />
+    <None Include="Resources\D6.wav" />
+    <None Include="Resources\D7.wav" />
+    <None Include="Resources\E3.wav" />
+    <None Include="Resources\E4.wav" />
+    <None Include="Resources\E5.wav" />
+    <None Include="Resources\E6.wav" />
+    <None Include="Resources\E7.wav" />
+    <None Include="Resources\F3.wav" />
+    <None Include="Resources\F4.wav" />
+    <None Include="Resources\F5.wav" />
+    <None Include="Resources\F6.wav" />
+    <None Include="Resources\F7.wav" />
+    <None Include="Resources\G3.wav" />
+    <None Include="Resources\G4.wav" />
+    <None Include="Resources\G5.wav" />
+    <None Include="Resources\G6.wav" />
+    <None Include="Resources\restoredesk.wav" />
+    <None Include="Resources\deskback.wav" />
+    <None Include="Resources\carryout.wav" />
+    <None Include="Resources\stealthactivated.wav" />
+    <None Include="Resources\askreposit.wav" />
+    <None Include="Resources\askyoutube.wav" />
+    <None Include="Resources\exile.wav" />
+    <None Include="Resources\termrequest.wav" />
+    <None Include="Resources\chromes.wav" />
+    <None Include="Resources\rightaway.wav" />
+    <None Include="Resources\weathers.wav" />
+    <None Include="Resources\alone.wav" />
     <None Include="Resources\day.wav" />
     <None Include="Resources\sorry.wav" />
     <None Include="Resources\welcome.wav" />
@@ -158,7 +245,6 @@
     <None Include="Resources\repository.wav" />
     <None Include="Resources\youtube.wav" />
     <None Include="Resources\forecast.wav" />
-    <None Include="Resources\exile.wav" />
     <None Include="Resources\close.wav" />
     <None Include="Resources\clearance.wav" />
     <None Include="Resources\[ONTIVA.COM]-[CUTTER]-Bloom - Don%27t Let Me Down-720P.gif" />

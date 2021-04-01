@@ -40,4 +40,8 @@
         Dim intReturn As Integer = FindWindow("Shell_traywnd", "")
         SetWindowPos(intReturn, 0, 0, 0, 0, 0, SWP_SHOWWINDOW)
     End Sub
+
+    Private Sub Terminal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        My.Computer.Audio.Play(My.Resources.alone, AudioPlayMode.BackgroundLoop)
+    End Sub
 End Class
